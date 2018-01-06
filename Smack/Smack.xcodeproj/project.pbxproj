@@ -15,6 +15,8 @@
 		A4CD0E951FFB508F00BD9BE2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CD0E941FFB508F00BD9BE2 /* SWRevealViewController.m */; };
 		A4CD0E9A1FFB525900BD9BE2 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD0E991FFB525900BD9BE2 /* ChatViewController.swift */; };
 		A4CD0E9C1FFB526A00BD9BE2 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD0E9B1FFB526A00BD9BE2 /* ChannelViewController.swift */; };
+		A4F5D7481FFF3B2200171AB3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F5D7471FFF3B2200171AB3 /* Constants.swift */; };
+		A4F5D74A20007EEA00171AB3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F5D74920007EEA00171AB3 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A4CD0E941FFB508F00BD9BE2 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		A4CD0E991FFB525900BD9BE2 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		A4CD0E9B1FFB526A00BD9BE2 /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
+		A4F5D7471FFF3B2200171AB3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A4F5D74920007EEA00171AB3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		A4CD0E501FF9F03700BD9BE2 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				A4F5D7461FFF3B0600171AB3 /* Utillities */,
 				A4CD0E961FFB521900BD9BE2 /* Model */,
 				A4CD0E981FFB522900BD9BE2 /* View */,
 				A4CD0E971FFB522300BD9BE2 /* Controller */,
@@ -97,6 +102,7 @@
 			children = (
 				A4CD0E991FFB525900BD9BE2 /* ChatViewController.swift */,
 				A4CD0E9B1FFB526A00BD9BE2 /* ChannelViewController.swift */,
+				A4F5D74920007EEA00171AB3 /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -107,6 +113,14 @@
 				A4C6BF051FFCB702000EA84E /* GradientUIView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A4F5D7461FFF3B0600171AB3 /* Utillities */ = {
+			isa = PBXGroup;
+			children = (
+				A4F5D7471FFF3B2200171AB3 /* Constants.swift */,
+			);
+			path = Utillities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,11 +196,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F5D74A20007EEA00171AB3 /* LoginViewController.swift in Sources */,
 				A4CD0E521FF9F03700BD9BE2 /* AppDelegate.swift in Sources */,
 				A4CD0E9A1FFB525900BD9BE2 /* ChatViewController.swift in Sources */,
 				A4CD0E9C1FFB526A00BD9BE2 /* ChannelViewController.swift in Sources */,
 				A4CD0E951FFB508F00BD9BE2 /* SWRevealViewController.m in Sources */,
 				A4C6BF061FFCB702000EA84E /* GradientUIView.swift in Sources */,
+				A4F5D7481FFF3B2200171AB3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
