@@ -24,6 +24,7 @@
 		A4FAB89B200969C200216F08 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FAB89F200969C200216F08 /* SocketIO.framework */; };
 		A4FAB89C200969C200216F08 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FAB8A0200969C200216F08 /* Starscream.framework */; };
 		A4FAB89D200969C200216F08 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FAB8A1200969C200216F08 /* SwiftyJSON.framework */; };
+		A4FAB8A3200C873500216F08 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FAB8A2200C873500216F08 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		A4FAB89F200969C200216F08 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FAB8A0200969C200216F08 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FAB8A1200969C200216F08 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FAB8A2200C873500216F08 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		B3B866F7FB935879E05699C2 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				A4C6BF051FFCB702000EA84E /* GradientUIView.swift */,
+				A4FAB8A2200C873500216F08 /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4F5D74A20007EEA00171AB3 /* LoginViewController.swift in Sources */,
+				A4FAB8A3200C873500216F08 /* RoundedButton.swift in Sources */,
 				A4CD0E521FF9F03700BD9BE2 /* AppDelegate.swift in Sources */,
 				A4CD0E9A1FFB525900BD9BE2 /* ChatViewController.swift in Sources */,
 				A4FAB883200963D200216F08 /* AuthService.swift in Sources */,
