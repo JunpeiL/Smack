@@ -23,7 +23,7 @@ class RoundedButton: UIButton {
     func setupView() {
         self.layer.cornerRadius = cornerRadius
     }
-    
+
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
         setupView()

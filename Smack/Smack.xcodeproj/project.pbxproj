@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A402CCFA2003368400A8917C /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402CCF92003368400A8917C /* CreateAccountViewController.swift */; };
+		A43295C6200F2485008311D8 /* Note in Resources */ = {isa = PBXBuildFile; fileRef = A43295C5200F2485008311D8 /* Note */; };
+		A43295C8200F24E0008311D8 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43295C7200F24E0008311D8 /* UserDataService.swift */; };
 		A4C6BF061FFCB702000EA84E /* GradientUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C6BF051FFCB702000EA84E /* GradientUIView.swift */; };
 		A4CD0E521FF9F03700BD9BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD0E511FF9F03700BD9BE2 /* AppDelegate.swift */; };
 		A4CD0E571FF9F03700BD9BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CD0E551FF9F03700BD9BE2 /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 /* Begin PBXFileReference section */
 		7F0D31684C22EFBB07339832 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 		A402CCF92003368400A8917C /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		A43295C5200F2485008311D8 /* Note */ = {isa = PBXFileReference; lastKnownFileType = text; path = Note; sourceTree = "<group>"; };
+		A43295C7200F24E0008311D8 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		A4C6BF051FFCB702000EA84E /* GradientUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientUIView.swift; sourceTree = "<group>"; };
 		A4CD0E4E1FF9F03700BD9BE2 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CD0E511FF9F03700BD9BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +120,7 @@
 				A4CD0E5A1FF9F03700BD9BE2 /* LaunchScreen.storyboard */,
 				A4CD0E581FF9F03700BD9BE2 /* Assets.xcassets */,
 				A4CD0E5D1FF9F03700BD9BE2 /* Info.plist */,
+				A43295C5200F2485008311D8 /* Note */,
 			);
 			path = Smack;
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				A4FAB882200963D200216F08 /* AuthService.swift */,
+				A43295C7200F24E0008311D8 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -255,6 +261,7 @@
 			files = (
 				A4CD0E5C1FF9F03700BD9BE2 /* LaunchScreen.storyboard in Resources */,
 				A4CD0E591FF9F03700BD9BE2 /* Assets.xcassets in Resources */,
+				A43295C6200F2485008311D8 /* Note in Resources */,
 				A4CD0E571FF9F03700BD9BE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +324,7 @@
 				A4F5D74A20007EEA00171AB3 /* LoginViewController.swift in Sources */,
 				A4FAB8A3200C873500216F08 /* RoundedButton.swift in Sources */,
 				A4CD0E521FF9F03700BD9BE2 /* AppDelegate.swift in Sources */,
+				A43295C8200F24E0008311D8 /* UserDataService.swift in Sources */,
 				A4CD0E9A1FFB525900BD9BE2 /* ChatViewController.swift in Sources */,
 				A4FAB883200963D200216F08 /* AuthService.swift in Sources */,
 				A4CD0E9C1FFB526A00BD9BE2 /* ChannelViewController.swift in Sources */,
