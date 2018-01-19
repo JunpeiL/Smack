@@ -10,6 +10,8 @@
 		A402CCFA2003368400A8917C /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A402CCF92003368400A8917C /* CreateAccountViewController.swift */; };
 		A43295C6200F2485008311D8 /* Note in Resources */ = {isa = PBXBuildFile; fileRef = A43295C5200F2485008311D8 /* Note */; };
 		A43295C8200F24E0008311D8 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43295C7200F24E0008311D8 /* UserDataService.swift */; };
+		A43295CA2011C6B8008311D8 /* AvatarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43295C92011C6B8008311D8 /* AvatarPickerViewController.swift */; };
+		A43295CC2011CB59008311D8 /* AvatarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43295CB2011CB59008311D8 /* AvatarCollectionViewCell.swift */; };
 		A4C6BF061FFCB702000EA84E /* GradientUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C6BF051FFCB702000EA84E /* GradientUIView.swift */; };
 		A4CD0E521FF9F03700BD9BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD0E511FF9F03700BD9BE2 /* AppDelegate.swift */; };
 		A4CD0E571FF9F03700BD9BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CD0E551FF9F03700BD9BE2 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 		A402CCF92003368400A8917C /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		A43295C5200F2485008311D8 /* Note */ = {isa = PBXFileReference; lastKnownFileType = text; path = Note; sourceTree = "<group>"; };
 		A43295C7200F24E0008311D8 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		A43295C92011C6B8008311D8 /* AvatarPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerViewController.swift; sourceTree = "<group>"; };
+		A43295CB2011CB59008311D8 /* AvatarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCollectionViewCell.swift; sourceTree = "<group>"; };
 		A4C6BF051FFCB702000EA84E /* GradientUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientUIView.swift; sourceTree = "<group>"; };
 		A4CD0E4E1FF9F03700BD9BE2 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CD0E511FF9F03700BD9BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 				A4CD0E9B1FFB526A00BD9BE2 /* ChannelViewController.swift */,
 				A4F5D74920007EEA00171AB3 /* LoginViewController.swift */,
 				A402CCF92003368400A8917C /* CreateAccountViewController.swift */,
+				A43295C92011C6B8008311D8 /* AvatarPickerViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 			children = (
 				A4C6BF051FFCB702000EA84E /* GradientUIView.swift */,
 				A4FAB8A2200C873500216F08 /* RoundedButton.swift */,
+				A43295CB2011CB59008311D8 /* AvatarCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -325,8 +331,10 @@
 				A4FAB8A3200C873500216F08 /* RoundedButton.swift in Sources */,
 				A4CD0E521FF9F03700BD9BE2 /* AppDelegate.swift in Sources */,
 				A43295C8200F24E0008311D8 /* UserDataService.swift in Sources */,
+				A43295CC2011CB59008311D8 /* AvatarCollectionViewCell.swift in Sources */,
 				A4CD0E9A1FFB525900BD9BE2 /* ChatViewController.swift in Sources */,
 				A4FAB883200963D200216F08 /* AuthService.swift in Sources */,
+				A43295CA2011C6B8008311D8 /* AvatarPickerViewController.swift in Sources */,
 				A4CD0E9C1FFB526A00BD9BE2 /* ChannelViewController.swift in Sources */,
 				A402CCFA2003368400A8917C /* CreateAccountViewController.swift in Sources */,
 				A4CD0E951FFB508F00BD9BE2 /* SWRevealViewController.m in Sources */,

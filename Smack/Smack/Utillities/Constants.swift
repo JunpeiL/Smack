@@ -21,6 +21,7 @@ let URL_USER_ADD = "\(BASE_URL)user/add"
 let TO_LOGIN_VIEW_CONTROLLER = "toLoginViewController"
 let TO_CREATE_ACCOUNT_VIEW_CONTROLLER = "toCreateAccountViewController"
 let UNWIND_TO_CHANNEL_VIEW_CONTROLLER = "unwindToChannelViewController"
+let TO_AVATAR_PICKER_VIEW_CONTROLLER = "toAvatarPickerViewController"
 
 // User Defaults
 let TOKEN_KEY = "token"
