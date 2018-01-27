@@ -12,6 +12,7 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupView()
     }
 
     @IBAction func closeBtnPressed(_ sender: Any) {
@@ -22,4 +23,12 @@ class LoginViewController: UIViewController {
         performSegue(withIdentifier: TO_CREATE_ACCOUNT_VIEW_CONTROLLER, sender: nil)
     }
     
+    func setupView() {
+        let tap = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.handleTap))
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func handleTap() {
+        view.endEditing(true)
+    }
 }

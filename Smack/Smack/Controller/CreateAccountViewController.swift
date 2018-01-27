@@ -63,7 +63,7 @@ class CreateAccountViewController: UIViewController {
                                 self.spinner.isHidden = true
                                 self.spinner.stopAnimating()
                                 self.performSegue(withIdentifier: UNWIND_TO_CHANNEL_VIEW_CONTROLLER, sender: nil)
-                                NotificationCenter.default.post(name: NOTIFICATION_USER_DATE_DID_CHANGE, object: nil)
+                                NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
                             }
                         })
                     }
@@ -82,6 +82,7 @@ class CreateAccountViewController: UIViewController {
         let blue = CGFloat(arc4random_uniform(255)) / 255
         
         bgColor = UIColor(red: red, green: green, blue: blue, alpha: 1)
+        avatarColor = "[\(red), \(green), \(blue), 1]"
         UIView.animate(withDuration: 0.2) {
             self.userImg.backgroundColor = self.bgColor
         }

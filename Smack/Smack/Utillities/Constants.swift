@@ -15,7 +15,7 @@ typealias CompletionHandler = (_ Sucess: Bool) -> ()
 let smackPurplePlaceholder = #colorLiteral(red: 0.3254901961, green: 0.4196078431, blue: 0.7764705882, alpha: 0.5)
 
 // Notification_Constants
-let NOTIFICATION_USER_DATE_DID_CHANGE = Notification.Name("notifiDataDidChange")
+let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notifiDataDidChange")
 
 //URL Constants
 let BASE_URL = "https://c-chat-c.herokuapp.com/v1/"
