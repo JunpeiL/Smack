@@ -114,26 +114,14 @@ class AuthService {
             "avatarColor": avatarColor
         ]
         
-        let header = [
-            "Authorization": "Bearer \(AuthService.instance.authToken)",
-            "Content-Type" : "application/json; charset=utf-8"
-        ]
-        
-        Alamofire.request(URL_USER_ADD, method: .post, parameters: body, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+        Alamofire.request(URL_USER_ADD, method: .post, parameters: body, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { (response) in
             if response.result.error == nil {
                 do {
                     guard let data = response.data else {
                         print("data is nil")
                         return
                     }
-                    let json = try JSON(data: data)
-                    let id1 = json["_id"].stringValue
-                    let avatarColor1 = json["avatarColor"].stringValue
-                    let avatarName1 = json["avatarName"].stringValue
-                    let email1 = json["email"].stringValue
-                    let name1 = json["name"].stringValue
-                    
-                    UserDataService.instance.setUserData(id: id1, avatarColor: avatarColor1, avatarName: avatarName1, email: email1, name: name1)
+                    try self.setUserInfo(data: data)
                     completion(true)
                 } catch let error as NSError {
                     // error
@@ -145,4 +133,45 @@ class AuthService {
             }
         }
     }
+    
+    func findUserByEmail(completion: @escaping CompletionHandler) {
+        Alamofire.request("\(URL_USER_FIND_EMAIL)\(userEmail)", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { (response) in
+            if response.result.error == nil {
+                do {
+                    guard let data = response.data else {
+                        print("data is nil")
+                        return
+                    }
+                    try self.setUserInfo(data: data)
+                    completion(true)
+                } catch let error as NSError {
+                    // error
+                    debugPrint(error as Any)
+                }
+            } else {
+                completion(false)
+                debugPrint(response.result.error as Any)
+            }
+        }
+    }
+    
+    func setUserInfo(data: Data) throws {
+        let json = try JSON(data: data)
+        let id1 = json["_id"].stringValue
+        let avatarColor1 = json["avatarColor"].stringValue
+        let avatarName1 = json["avatarName"].stringValue
+        
+        print("\(avatarColor1) \(avatarName1)")
+        let email1 = json["email"].stringValue
+        let name1 = json["name"].stringValue
+    
+        UserDataService.instance.setUserData(id: id1, avatarColor: avatarColor1, avatarName: avatarName1, email: email1, name: name1)
+    }
+    
+    
+    
+    
+    
+    
+    
 }
