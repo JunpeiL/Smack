@@ -13,8 +13,10 @@
 		A43295CA2011C6B8008311D8 /* AvatarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43295C92011C6B8008311D8 /* AvatarPickerViewController.swift */; };
 		A43295CC2011CB59008311D8 /* AvatarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43295CB2011CB59008311D8 /* AvatarCollectionViewCell.swift */; };
 		A43295CE20186370008311D8 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43295CD20186370008311D8 /* CircleImageView.swift */; };
+		A4815A8D2022AEE4002552D0 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4815A8C2022AEE4002552D0 /* Channel.swift */; };
 		A48CCA38201E8B3D00C5080E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48CCA36201E8B3D00C5080E /* ProfileViewController.swift */; };
 		A48CCA39201E8B3D00C5080E /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A48CCA37201E8B3D00C5080E /* ProfileViewController.xib */; };
+		A48CCA3C20219CB800C5080E /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48CCA3B20219CB800C5080E /* MessageService.swift */; };
 		A4C6BF061FFCB702000EA84E /* GradientUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C6BF051FFCB702000EA84E /* GradientUIView.swift */; };
 		A4CD0E521FF9F03700BD9BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD0E511FF9F03700BD9BE2 /* AppDelegate.swift */; };
 		A4CD0E571FF9F03700BD9BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CD0E551FF9F03700BD9BE2 /* Main.storyboard */; };
@@ -42,8 +44,10 @@
 		A43295C92011C6B8008311D8 /* AvatarPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerViewController.swift; sourceTree = "<group>"; };
 		A43295CB2011CB59008311D8 /* AvatarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCollectionViewCell.swift; sourceTree = "<group>"; };
 		A43295CD20186370008311D8 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		A4815A8C2022AEE4002552D0 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		A48CCA36201E8B3D00C5080E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A48CCA37201E8B3D00C5080E /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		A48CCA3B20219CB800C5080E /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		A4C6BF051FFCB702000EA84E /* GradientUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientUIView.swift; sourceTree = "<group>"; };
 		A4CD0E4E1FF9F03700BD9BE2 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CD0E511FF9F03700BD9BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +161,7 @@
 		A4CD0E961FFB521900BD9BE2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A4815A8C2022AEE4002552D0 /* Channel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +203,7 @@
 			children = (
 				A4FAB882200963D200216F08 /* AuthService.swift */,
 				A43295C7200F24E0008311D8 /* UserDataService.swift */,
+				A48CCA3B20219CB800C5080E /* MessageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -349,7 +355,9 @@
 				A4FAB8A3200C873500216F08 /* RoundedButton.swift in Sources */,
 				A43295CE20186370008311D8 /* CircleImageView.swift in Sources */,
 				A4CD0E521FF9F03700BD9BE2 /* AppDelegate.swift in Sources */,
+				A4815A8D2022AEE4002552D0 /* Channel.swift in Sources */,
 				A43295C8200F24E0008311D8 /* UserDataService.swift in Sources */,
+				A48CCA3C20219CB800C5080E /* MessageService.swift in Sources */,
 				A43295CC2011CB59008311D8 /* AvatarCollectionViewCell.swift in Sources */,
 				A4CD0E9A1FFB525900BD9BE2 /* ChatViewController.swift in Sources */,
 				A4FAB883200963D200216F08 /* AuthService.swift in Sources */,
