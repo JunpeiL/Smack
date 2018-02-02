@@ -81,7 +81,7 @@
                                 <rect key="frame" x="0.0" y="125" width="375" height="427"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="um0-PQ-9hg">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="channelCell" id="um0-PQ-9hg" customClass="ChannelTableViewCell" customModule="Smack" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="um0-PQ-9hg" id="GB5-6j-uOz">
@@ -101,6 +101,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="channelName" destination="uFd-Zy-wxn" id="NOh-Dj-Hw5"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -125,6 +128,7 @@
                         <viewLayoutGuide key="safeArea" id="aE4-GN-VSI"/>
                     </view>
                     <connections>
+                        <outlet property="channelTableView" destination="zDg-py-4M5" id="L40-MN-btp"/>
                         <outlet property="loginBtn" destination="7K2-vx-wcm" id="Dcd-hD-rqA"/>
                         <outlet property="userImage" destination="yuX-RT-Gz3" id="wNi-OF-L7M"/>
                         <segue destination="w1y-xZ-CXH" kind="show" identifier="toLoginViewController" id="lFL-Wi-U2L"/>
