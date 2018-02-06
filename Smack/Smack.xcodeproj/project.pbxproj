@@ -38,6 +38,7 @@
 		A4FAB89C200969C200216F08 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FAB8A0200969C200216F08 /* Starscream.framework */; };
 		A4FAB89D200969C200216F08 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FAB8A1200969C200216F08 /* SwiftyJSON.framework */; };
 		A4FAB8A3200C873500216F08 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FAB8A2200C873500216F08 /* RoundedButton.swift */; };
+		A4FAC20020294D2D00F34F78 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FAC1FF20294D2D00F34F78 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		A4FAB8A0200969C200216F08 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FAB8A1200969C200216F08 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FAB8A2200C873500216F08 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		A4FAC1FF20294D2D00F34F78 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		B3B866F7FB935879E05699C2 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				A4815A8C2022AEE4002552D0 /* Channel.swift */,
+				A4FAC1FF20294D2D00F34F78 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				A43295CE20186370008311D8 /* CircleImageView.swift in Sources */,
 				A4CD0E521FF9F03700BD9BE2 /* AppDelegate.swift in Sources */,
 				A4815A8D2022AEE4002552D0 /* Channel.swift in Sources */,
+				A4FAC20020294D2D00F34F78 /* Message.swift in Sources */,
 				A4815A8F2022C2FD002552D0 /* ChannelTableViewCell.swift in Sources */,
 				A43295C8200F24E0008311D8 /* UserDataService.swift in Sources */,
 				A48CCA3C20219CB800C5080E /* MessageService.swift in Sources */,
