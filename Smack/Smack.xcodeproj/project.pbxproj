@@ -39,6 +39,8 @@
 		A4FAB89D200969C200216F08 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FAB8A1200969C200216F08 /* SwiftyJSON.framework */; };
 		A4FAB8A3200C873500216F08 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FAB8A2200C873500216F08 /* RoundedButton.swift */; };
 		A4FAC20020294D2D00F34F78 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FAC1FF20294D2D00F34F78 /* Message.swift */; };
+		A4FAC202202A96D900F34F78 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FAC201202A96D900F34F78 /* KeyboardBoundView.swift */; };
+		A4FAC204202A9F4C00F34F78 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FAC203202A9F4C00F34F78 /* MessageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +86,8 @@
 		A4FAB8A1200969C200216F08 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FAB8A2200C873500216F08 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		A4FAC1FF20294D2D00F34F78 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A4FAC201202A96D900F34F78 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		A4FAC203202A9F4C00F34F78 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
 		B3B866F7FB935879E05699C2 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -200,6 +204,8 @@
 				A43295CB2011CB59008311D8 /* AvatarCollectionViewCell.swift */,
 				A43295CD20186370008311D8 /* CircleImageView.swift */,
 				A4815A8E2022C2FD002552D0 /* ChannelTableViewCell.swift */,
+				A4FAC201202A96D900F34F78 /* KeyboardBoundView.swift */,
+				A4FAC203202A9F4C00F34F78 /* MessageTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -367,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FAC202202A96D900F34F78 /* KeyboardBoundView.swift in Sources */,
 				A4815A9520258130002552D0 /* SocketService.swift in Sources */,
 				A4F5D74A20007EEA00171AB3 /* LoginViewController.swift in Sources */,
 				A4FAB8A3200C873500216F08 /* RoundedButton.swift in Sources */,
@@ -385,6 +392,7 @@
 				A4815A922023FFBC002552D0 /* AddChannelViewController.swift in Sources */,
 				A402CCFA2003368400A8917C /* CreateAccountViewController.swift in Sources */,
 				A4CD0E951FFB508F00BD9BE2 /* SWRevealViewController.m in Sources */,
+				A4FAC204202A9F4C00F34F78 /* MessageTableViewCell.swift in Sources */,
 				A48CCA38201E8B3D00C5080E /* ProfileViewController.swift in Sources */,
 				A4C6BF061FFCB702000EA84E /* GradientUIView.swift in Sources */,
 				A4F5D7481FFF3B2200171AB3 /* Constants.swift in Sources */,
